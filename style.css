@@ -6,13 +6,12 @@ body{
   cursor: pointer;
 }
 
-h1{
-  color:#e84393;
-  transition: color 0.5s ease-in-out;
+body{
+  color:#ecf0f1;
 }
 
 .clicked{
-  color: #00cec9;
+  color: #95a5a6;
 }
 
 .form,
