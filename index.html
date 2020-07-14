@@ -2,33 +2,42 @@
 <html>
 
 <head>
-  <title>Something</title>
+  <title>Nahyun Chrome</title>
   <meta charset="utf-8"/>
-	<link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
+ 
 </head>
 
+
 <body>
-  <div class="js-clock">
+  <style>
+    ul{
+      list-style:none;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+ 
+  <div style="font-size: 2.5em;" class="js-clock">
     <h1>00:00</h1>
   </div>
   <form class="js-form form">
-    <input type="text" placeholder="what is your name?"/>
+    <input style="background-color: transparent; border-color: transparent; border-bottom-color: white;" type="text" placeholder="What Is Your Name?"/>
   </form>
-  <h4 class="js-greetings greetings"></h4>
+  <h1 class="js-greetings greetings"></h1>
 
-  <form class = "js-toDoForm">
-    <input type="text" placeholder = "write a to do"/>
+  <form class = "js-toDoForm doForm">
+    <input style="background-color:transparent; border-color: transparent;" type="text" placeholder = "Write A To Do Here"/>
   </form>
-  <ul class="js-toDoList">
-
-  </ul>
-  <spanc class="js-weather"></spanc>
+  <ul class="js-toDoList listForm"></ul>
+  <spanc class="js-weather weatherForm"></spanc>
 
   <script src="clock.js"></script>
   <script src="greeting.js"></script>
   <script src="todo.js"></script>
   <script src="bg.js"></script>
   <script src="weather.js"></script>
+
 </body>
 
 </html>

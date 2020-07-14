@@ -2,12 +2,32 @@ body{
   background-color: #2c3e50;
 }
 
-.btn{
+button{
   cursor: pointer;
+  background-color: transparent !important;
+  background-image: none !important;
+  border-color: transparent;
+  border: none;
+
+  color: #FFFFFF;
 }
+
+input::-webkit-input-placeholder{
+  color: #FFF;
+  font-weight: bold;
+  font-size: larger;
+}
+input:focus {outline:none;}
 
 body{
   color:#ecf0f1;
+  text-align: center;
+}
+
+div{
+  position: relative;
+  top : 130px;
+
 }
 
 .clicked{
@@ -16,7 +36,40 @@ body{
 
 .form,
 .greetings{
+  
+  position: relative;
+  top : 100px;
   display: none;
+}
+
+.doForm{
+  width: 250px;
+  margin: 0 auto;
+  border-style:solid;
+  border-top-width:0px; 
+  border-bottom-width: medium;
+  border-left-width:0px; 
+  border-right-width:0px;
+  
+  position: relative;
+  top : 100px;
+}
+
+.listForm{
+  text-align: left;
+  width: 200px; 
+  margin: 0 auto;
+  position: relative;
+  top : 120px;
+  font-weight: bold;
+
+}
+
+.weatherForm{
+  position: relative;
+  top : 150px;
+  font-weight: bold;
+  font-size: large;
 }
 
 .showing{
